@@ -1,8 +1,8 @@
 import os
 
 def commit_on_specific_date():
-    date = '2024-06-30'  # Specific date to commit on
-    commit_message = "Commit on 30th June 2024"
+    date = '2024-07-15'  # Specific date to commit on
+    commit_message = "Commit on 15th July 2024"
     
     with open('data.txt', 'a') as file:
         file.write(f'Committed on {date}\n')
